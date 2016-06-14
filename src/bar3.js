@@ -1,8 +1,8 @@
 import { Component} from 'angular2/core';
 import { RouteConfig, ROUTER_DIRECTIVES} from 'angular2/router';
-import { Welcome} from './bar3subpage/welcome';
-import { Aboutme} from './bar3subpage/aboutme';
-import { Mygitme} from './bar3subpage/mygitme';
+import { Welcome} from './bar3subpage/welcome3';
+import { Aboutme} from './bar3subpage/aboutme3';
+import { Mygitme} from './bar3subpage/mygitme3';
 
 
 @Component({
