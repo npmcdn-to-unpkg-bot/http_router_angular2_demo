@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>angular2 and firebase demo</title>
+        <!-- systemJS loader and config -->
+        <script src="jspm_packages/system.js"></script>
+        <script src="config.js"></script>
+        <base href="/">
+    </head>
+    <body>
+        <!-- our angular2 component -->
+        <app-test>
+            Loading...
+        </app-test>
+        <!-- import and run our app -->
+        <script>
+            System.import ('src/boot');
+        </script>
+    </body>
+</html>
